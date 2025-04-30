@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+}
+header, footer{
+    background-color: #f66904 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px black solid;
+}
+header{
+    height: 76px;
+}
+footer{
+    height: 100px
+}
+.logo{
+    margin-left: 20px;
+    width: 70px;
+}
+nav{
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(247, 246, 246);
+    font-size: 1.2em;
+    font-family: Gill Sans;
+    font-weight: bold;
+    padding-right: 9px;
+}
+
+
+h2 em {
+    color: #A5B4FC;
+}
+
+p {
+    font-size: 1.1em;
+    font-family: Gill Sans;
+   
+}
+li {
+    font-size: 1em;
+    font-family: Gill Sans;
+}
+.cv {
+    background: linear-gradient(to right,#f66904 , #dc9614);
+    font-family: Gill Sans;
+    color: #F9F8FF;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 70px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out; 
+
+}
+.accueil-introduction{
+    padding: 165px;
+}
+.me{
+    margin-bottom: 30px;
+  }
+
+.carre{
+    padding: 50px;
+    margin-bottom: 30px;
+    border-right :1px #A5B4FC double ;
+    border-bottom: 1px #A5B4FC double ;
+    
+}
+  
+  .me h2, ul{
+      padding-top: 20px;
+  }
+  #lise{
+    background-size: cover;
+    background-position: center right;
+  }
+
+  .cta:hover {
+    background: linear-gradient(to right, #696484, #87888A);
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+    background-color: #F9F8FF;
+    color:#1F2039;
+    justify-content: center;
+}
+
+.contenaire{
+   justify-content: space-between;
+   max-width: 1000px;
+   margin: 0 auto;
+   padding: 30px;
+   border-radius: 10px;
+  
+
+
+}
+
+.me h2{ 
+margin-bottom: 10px;
+}
+
+.me p{
+    line-height: 1.4;
+}
+
+.me img{
+width: 210px;
+/*height: 200px;*/
+float: left;
+/* pour arrondir les angles
+border-radius: 50px;*/
+/* pour bien redimensionner l'image*/
+object-fit: cover;
+border-radius: 30px;
+margin: 0px 20px 5px 0px;
+
+}
